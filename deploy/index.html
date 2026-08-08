@@ -2611,7 +2611,7 @@ function LandmarkDetailView({ selected, onBack, isFav, onToggleFav, onNavigate, 
                 height="200"
                 style={{ border: 0, display: "block" }}
                 loading="lazy"
-                src={`https://maps.google.com/maps?q=${COORDS[selected.key].lat},${COORDS[selected.key].lng}&z=16&t=h&output=embed`}
+                src={`https://www.google.com/maps/embed?pb=!1m4!2m1!1s${COORDS[selected.key].lat},${COORDS[selected.key].lng}!5e1!6i16!3m1!1sen!5m1!1sen`}
               />
             </div>
             <a
